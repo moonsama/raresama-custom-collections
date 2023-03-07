@@ -6,7 +6,7 @@ Please follow & extend the official [ERC721](https://eips.ethereum.org/EIPS/eip-
 We recommend using the well audited [OpenZeppelin](https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts/token/ERC721) libraries. Security comes first. Don't get rekt.
 
 ## Collection URI
-We support and rely on collection/contract level metadata. On top of the specification, your contract must implement the following function too.
+We support and rely on [collection/contract level metadata](https://docs.opensea.io/docs/contract-level-metadata). On top of the specification, your contract must implement the following function too.
 ```solidity
 function contractURI() public view returns (string memory);
 ```
