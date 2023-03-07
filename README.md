@@ -120,3 +120,6 @@ This URI is meant to convey information about your whole collection, and it also
 ```
 
 That should be all for now.
+
+# ERC1155 contract requirements
+Support coming soon.
